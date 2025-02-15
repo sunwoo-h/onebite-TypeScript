@@ -5,7 +5,7 @@
     "module": "ESNext", // 모듈 시스템 가장 최신으로
     "outDir": "dist", // 컴파일된 js 파일 dist폴더에 따로 저장
     "strict": true, // 엄격하게 타입 검사
-    "moduleDetection": "force", // 모든 타입스크립트 파일을 로컬모듈로 취급 -> 컴파일할 때 모듈마다 자동으로 export 붙여줌
+    "moduleDetection": "force", // 모든 타입스크립트 파일을 로컬 모듈로 취급 -> 컴파일할 때 모듈마다 자동으로 export 붙여줌
     "skipLibCheck": true // "타입 정의 파일(라이브러리에서 사용)"의 타입검사 생략
   },
   "include": ["src"] // tsc 치면 src폴더 내의 모든 파일 컴파일시킴
