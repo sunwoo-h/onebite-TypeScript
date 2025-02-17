@@ -19,7 +19,7 @@ function func2(value: number | string | Date | null) {
 }
 
 // 3. in 타입가드
-// 직접 만든 타입
+// 직접 만든 타입(객체든 변수든.. 근데 보통 객체)
 type Person = {
   name: string;
   age: number;
