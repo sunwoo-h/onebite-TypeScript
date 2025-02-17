@@ -9,7 +9,7 @@ function func1(): void {
 let a: void;
 a = undefined;
 // 이런 식으로 변수의 타입으로도 지정할 수 있음
-// 그러나 void 타입의 변수에는 undefiend 이외의 다른 타입의 값은 담을 수 없음(never는 걍 공집합이라 안되는듯? ㄴㄴ 아님 되는데 타입 단언해줘야 함.노션 참고))
+// 그러나 void 타입의 변수에는 undefiend 이외의 다른 타입의 값은 담을 수 없음(never는 걍 공집합이라 안되는듯? ㄴㄴ 아님 되는데 값을 할당해줘야 함.노션 참고))
 // 왜냐면 void가 undefined의 슈퍼타입이기 때문
 
 // 2. never
