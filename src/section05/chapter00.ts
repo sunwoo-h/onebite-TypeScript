@@ -7,7 +7,7 @@ interface Person {
 }
 
 const person: Person = {
-  name: "이정환",
+  name: "황선우",
   age: 27,
 };
 
